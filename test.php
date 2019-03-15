@@ -48,8 +48,6 @@
 	$numbers = range($numStart, $numEnd);
 
 	foreach ($numbers as $number) {
-
-
 		if ($number % 3 == 0 && $number % 5 == 0) {
 
 			echo "hello";
