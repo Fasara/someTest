@@ -1,0 +1,107 @@
+h1 {
+
+	text-align: center;
+	font-family: Aleo;
+	margin: 0px 0px 20px 0px;
+}
+
+
+#container {
+
+	max-width: 400px;
+	margin: 50px auto;
+	background-color: #fff;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#container ul {
+
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+#container li {
+
+	display: block;
+	padding: 10px;
+	border: 2px solid #DDDDDD;
+	margin-bottom: 30px;
+	border-radius: 3px;
+
+}
+
+#container li:last-child {
+	
+	border: none;
+	display: block;
+	color: #B9B9B9;
+	font-size: 14px;
+	margin-bottom: 0
+
+}
+
+#container li > label {
+
+	display: block;
+	float: left;
+	margin-top: -28px;
+	background: #FFFFFF
+	padding: 2px, 5px, 2px, 5px;
+	color: #B9B9B9;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+
+#container li > span {
+
+	background: #F3F3F3;
+	display: block;
+	padding: 3px;
+	margin: 0 -9px -9px -9px;
+	text-align: center;
+	color: #C0C0C0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+
+/*input boxes*/
+
+input {
+
+	width: 100%;
+	padding: 12px, 20px;
+	margin: 8px, 0;
+	box-sizing: border-box;
+}
+
+
+input[type="number"] {
+
+	width: 20%;
+}
+
+
+.register {
+
+	background: #6B9FFF;;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.6;
+  	transition: 0.3s;
+
+}
+
+.register:hover { opacity: 1}
+
+
